@@ -1,0 +1,31 @@
+{
+  "name": "framework-identifier",
+  "version": "0.0.2",
+  "description": "A package to detect which node web framework belongs that server, app or api instance.",
+  "main": "frameworkIdentifier.js",
+  "author": "Gabriel Freitas (github.com/nneutrinno)",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  },
+  "keywords": [
+    "framework",
+    "web",
+    "detect",
+    "identify",
+    "identifier",
+    "find"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nneutrinno/framework-identifier.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nneutrinno/framework-identifier/issues"
+  },
+  "homepage": "https://github.com/nneutrinno/framework-identifier#readme",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
