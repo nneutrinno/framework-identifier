@@ -1,6 +1,6 @@
 const getInstancesPropsFromFrameworks = require('./getInstancesPropsFromFrameworks')
 const writeJSON = require('./writeJSON')
-const frameworkIdentifier = require('./build/frameworkIdentifier')
+const frameworkIdentifier = require('./build/')
 const fastify = require('fastify')
 
 async function main() {

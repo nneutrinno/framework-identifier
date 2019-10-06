@@ -1,9 +1,15 @@
 {
   "dependencies": {
-    "@hapi/hapi": "^18.3.1",
+    "@hapi/hapi": "^18.4.0",
+    "chai": "^4.2.0",
     "express": "^4.17.1",
-    "fastify": "^2.6.0",
-    "koa": "^2.7.0",
-    "lodash": "^4.17.13"
+    "fastify": "^2.9.0",
+    "koa": "^2.8.2",
+    "lodash": "^4.17.15",
+    "mocha": "^6.2.1"
+  },
+  "scripts": {
+    "build": "node build.js",
+    "test": "mocha"
   }
 }

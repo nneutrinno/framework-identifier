@@ -7,12 +7,14 @@ function identifyFramework(instance) {
   const instancesPropsFromFrameworks = require('./instancesPropsFromFrameworks.json')
 
 
-  const name = _(instancesPropsFromFrameworks)
+  const name = _.chain(instancesPropsFromFrameworks)
     .map(addCommonInstanceProps)
     .map(addAmountCommonInstanceProps)
     .sort(orderByAmountCommonInstances)
     .map(fp.pick(['name', 'amountCommonInstanceProps']))
-    .first().name
+    .first()
+    .get('name')
+  .value()
 
   return _(name).words().join('-').toLowerCase()
 

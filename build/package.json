@@ -2,7 +2,7 @@
   "name": "framework-identifier",
   "version": "0.0.2",
   "description": "A package to detect which node web framework belongs that server, app or api instance.",
-  "main": "frameworkIdentifier.js",
+  "main": "index.js",
   "author": "Gabriel Freitas (github.com/nneutrinno)",
   "dependencies": {
     "lodash": "^4.17.11"
